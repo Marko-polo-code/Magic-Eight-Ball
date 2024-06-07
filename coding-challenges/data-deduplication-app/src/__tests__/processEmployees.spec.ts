@@ -1,5 +1,5 @@
 import { processEmployee, processEmployees } from '../employeeProcessor';
-import client, { createTable } from '../database';
+import client from '../database';
 
 jest.mock('../database', () => {
   const mockQuery = jest.fn();
